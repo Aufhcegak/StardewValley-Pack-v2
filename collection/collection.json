@@ -1,0 +1,444 @@
+{
+  "info": {
+    "author": "Aufhcegak",
+    "author_url": "https://www.nexusmods.com/users/277653181",
+    "name": "Stardew Valley Pack v2 星露谷整合包",
+    "summary": "星露谷整合包 v2 电脑版 · 33 个条目 / 34 个模组，一键安装。立体农业、沿岸渔业、垃圾回收机、林场矿场养殖场、瑞幸咖啡、中式食肆、茅台、金坷垃、小天才手表、罗宾加班、Allable Junimos 等自制模组 + 全部前置。",
+    "description": "【中文】\n本合集对应《星露谷整合包 v2》的电脑版。整合包共 35 个模组，其中 34 个可以在 Nexus 直接安装（本合集 33 个条目：SMAPI 条目内含 Console Commands 与 Save Backup；Allable Junimos 页面下有主文件与 JunimoQiFix 两个条目）；只剩 Buff 倒计时 HUD 一个尚未上架。\n\n一键安装后会得到：立体农业、沿岸渔业、垃圾回收机、林场 / 矿场 / 养殖场 / 怪物竞技场、瑞幸咖啡、中式食肆、茅台、金坷垃、小天才电话手表、电话送礼、罗宾加班、小屋主控电脑、钓具堆叠、智能手机、概率调节器、戒指包、自动低血进食、双向漏斗、Allable Junimos（改良版祝尼魔，含幽灵自动机与触屏管理）与祝尼魔齐瓜修复，加上 Content Patcher、SMAPI、Generic Mod Config Menu、Stardew Hack、TimeSpeed、Lookup Anything、Bigger Backpack、Skip Fishing Minigame、Buildable Ginger Island Farm、Clint's Backstock。\n\n需求：星露谷 1.6.15 或更高，SMAPI 4.5.x。\n\n注意事项\n1. 沿岸渔业 / 立体农业 / 瑞幸咖啡 / 中式食肆 / 怪物竞技场 / 电话送礼 的 Nexus 版本比整合包内略旧，整合包里是本机最新修复版，功能一致，个别修复项有差异。\n2. 合集不含任何 config.json，第一次启动是干净的默认值；想要整合包的默认手感请自行用 Generic Mod Config Menu 调整。\n3. 手机版（Android SMAPI + Cinderbox）不在合集范围内，Nexus 合集只覆盖电脑版。\n4. 安装顺序已按依赖排在前面，条目全部锁定到具体文件版本。\n\nEnglish\nPC build of the Stardew Valley Pack v2. The full pack has 35 mods, 34 of which are installable from Nexus today (33 entries here - SMAPI ships Console Commands and Save Backup, and the Allable Junimos page supplies both the main file and the Junimo Qi fix). Only the buff countdown HUD is still unpublished.\n\nRequires Stardew Valley 1.6.15+ and SMAPI 4.5.x. No config.json is bundled, so you get clean defaults on first launch. Coastal Fishery, Vertical Farming, RuiXing, ShiSi, Monster Arena and Phone Gift are slightly older on Nexus than in the pack. The Android/mobile pack is not part of this collection.",
+    "domain_name": "stardewvalley",
+    "game_versions": [
+      "1.6.15"
+    ]
+  },
+  "mods": [
+    {
+      "name": "SMAPI",
+      "version": "4.5.2",
+      "optional": true,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "2400",
+        "file_id": "160380",
+        "update_policy": "exact"
+      },
+      "author": "Pathoschild"
+    },
+    {
+      "name": "Content Patcher",
+      "version": "2.9.1",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "1915",
+        "file_id": "160463",
+        "update_policy": "exact"
+      },
+      "author": "Pathoschild"
+    },
+    {
+      "name": "Generic Mod Config Menu",
+      "version": "1.16.0",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "5098",
+        "file_id": "145906",
+        "update_policy": "exact"
+      },
+      "author": "spacechase0"
+    },
+    {
+      "name": "Stardew Hack",
+      "version": "7.4",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "3213",
+        "file_id": "115429",
+        "update_policy": "exact"
+      },
+      "author": "bcmpinc"
+    },
+    {
+      "name": "TimeSpeed",
+      "version": "2.8.1",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "169",
+        "file_id": "160619",
+        "update_policy": "exact"
+      },
+      "author": "cantorsdust"
+    },
+    {
+      "name": "Lookup Anything",
+      "version": "1.55.0",
+      "optional": true,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "541",
+        "file_id": "160470",
+        "update_policy": "exact"
+      },
+      "author": "Pathoschild"
+    },
+    {
+      "name": "Bigger Backpack",
+      "version": "7.3",
+      "optional": true,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "1845",
+        "file_id": "102115",
+        "update_policy": "exact"
+      },
+      "author": "spacechase0"
+    },
+    {
+      "name": "Skip Fishing Minigame",
+      "version": "0.7.4",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "2697",
+        "file_id": "115145",
+        "update_policy": "exact"
+      },
+      "author": "DewMods"
+    },
+    {
+      "name": "Buildable Ginger Island Farm",
+      "version": "1.1.7",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "20600",
+        "file_id": "179223",
+        "update_policy": "exact"
+      },
+      "author": "mouahrara"
+    },
+    {
+      "name": "Clint's Backstock",
+      "version": "1.0.1",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "20886",
+        "file_id": "85589",
+        "update_policy": "exact"
+      },
+      "author": "Rokugin"
+    },
+    {
+      "name": "Allable Junimos (BetterJunimos 3.1.2 Improved)",
+      "version": "3.1.2-improved",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "53632",
+        "file_id": "186097",
+        "update_policy": "exact"
+      },
+      "author": "Aufhcegak"
+    },
+    {
+      "name": "JunimoQiFix 祝尼魔齐瓜修复",
+      "version": "1.1.0",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "53632",
+        "file_id": "187482",
+        "update_policy": "exact"
+      },
+      "author": "Claude"
+    },
+    {
+      "name": "Vertical Farming 立体农业",
+      "version": "0.6.5",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "53266",
+        "file_id": "186604",
+        "update_policy": "exact"
+      },
+      "author": "xiepe"
+    },
+    {
+      "name": "Coastal Fishery 沿岸渔业",
+      "version": "0.2.3",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "53861",
+        "file_id": "187048",
+        "update_policy": "exact"
+      },
+      "author": "xiepe"
+    },
+    {
+      "name": "Garbage Recycler 垃圾回收机",
+      "version": "1.6.0",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "50833",
+        "file_id": "186606",
+        "update_policy": "exact"
+      },
+      "author": "Claude"
+    },
+    {
+      "name": "TreeFarm 林场",
+      "version": "0.6.2",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "50834",
+        "file_id": "186293",
+        "update_policy": "exact"
+      },
+      "author": "xiepe"
+    },
+    {
+      "name": "MineFarm 矿场",
+      "version": "0.3.2",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "51462",
+        "file_id": "186294",
+        "update_policy": "exact"
+      },
+      "author": "xiepe"
+    },
+    {
+      "name": "Animal Barn 养殖场",
+      "version": "1.4.2",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "50286",
+        "file_id": "186295",
+        "update_policy": "exact"
+      },
+      "author": "xiepe"
+    },
+    {
+      "name": "Monster Arena 怪物竞技场",
+      "version": "1.0.2",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "50287",
+        "file_id": "185934",
+        "update_policy": "exact"
+      },
+      "author": "xiepe"
+    },
+    {
+      "name": "Smart Phone 智能手机",
+      "version": "0.1.3",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "51463",
+        "file_id": "185701",
+        "update_policy": "exact"
+      },
+      "author": "xiepe"
+    },
+    {
+      "name": "RuiXing 瑞幸咖啡",
+      "version": "0.1.7",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "51023",
+        "file_id": "186075",
+        "update_policy": "exact"
+      },
+      "author": "Claude"
+    },
+    {
+      "name": "ShiSi 中式食肆",
+      "version": "0.1.3",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "51021",
+        "file_id": "186074",
+        "update_policy": "exact"
+      },
+      "author": "Claude"
+    },
+    {
+      "name": "Probability Tuner 概率调节器",
+      "version": "1.5.0",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "51114",
+        "file_id": "185707",
+        "update_policy": "exact"
+      },
+      "author": "Claude"
+    },
+    {
+      "name": "Ring Pack 戒指包",
+      "version": "1.0.1",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "50337",
+        "file_id": "185698",
+        "update_policy": "exact"
+      },
+      "author": "Xiepe"
+    },
+    {
+      "name": "Auto Eat Low Health 自动低血进食",
+      "version": "1.2.3",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "50283",
+        "file_id": "185697",
+        "update_policy": "exact"
+      },
+      "author": "Claude"
+    },
+    {
+      "name": "Bidirectional Hopper 双向漏斗",
+      "version": "1.1.0",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "50285",
+        "file_id": "185696",
+        "update_policy": "exact"
+      },
+      "author": "Claude"
+    },
+    {
+      "name": "Maotai 茅台",
+      "version": "1.0.0",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "50288",
+        "file_id": "179402",
+        "update_policy": "exact"
+      },
+      "author": "Claude"
+    },
+    {
+      "name": "JinKeLa 金坷垃",
+      "version": "1.0.1",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "50289",
+        "file_id": "180259",
+        "update_policy": "exact"
+      },
+      "author": "Claude"
+    },
+    {
+      "name": "Genius Watch 小天才电话手表",
+      "version": "1.0.1",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "50606",
+        "file_id": "179858",
+        "update_policy": "exact"
+      },
+      "author": "xiepe"
+    },
+    {
+      "name": "Phone Gift 电话送礼",
+      "version": "1.1.0",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "50336",
+        "file_id": "185847",
+        "update_policy": "exact"
+      },
+      "author": "Claude"
+    },
+    {
+      "name": "Robin Overtime 罗宾加班",
+      "version": "1.4.2",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "50594",
+        "file_id": "179039",
+        "update_policy": "exact"
+      },
+      "author": "XiePe"
+    },
+    {
+      "name": "Shed Console Computer 小屋主控电脑",
+      "version": "1.5.1",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "50284",
+        "file_id": "179861",
+        "update_policy": "exact"
+      },
+      "author": "Claude"
+    },
+    {
+      "name": "Stackable Tackle 钓具堆叠",
+      "version": "1.0.1",
+      "optional": false,
+      "domain_name": "stardewvalley",
+      "source": {
+        "type": "nexus",
+        "mod_id": "50290",
+        "file_id": "179041",
+        "update_policy": "exact"
+      },
+      "author": "Aufhcegak"
+    }
+  ]
+}
