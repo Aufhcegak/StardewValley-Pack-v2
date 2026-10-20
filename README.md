@@ -9,9 +9,9 @@
 
 | 文件 | 说明 | 大小 |
 |---|---|---|
-| `星露谷整合包_电脑版_35模组_20261018.zip` | 电脑版，35 个模组 | 14.4 MB |
-| `星露谷整合包_手机版_26项_20261018.zip` | 安卓版，26 项 | 4.6 MB |
-| `StardewValleyPack-v2_合集包.zip` | Vortex 一键安装合集（不含模组，2.9 KB） | 2,940 B |
+| `StardewValleyPack-v2-PC-35mods.zip` | 电脑版，35 个模组 | 14.4 MB |
+| `StardewValleyPack-v2-Android-26items.zip` | 安卓版，26 项（2026-10-20 已换新，含罗宾加班 `1.4.3-mobile.2`、立体农业 `0.6.6-mobile2`） | 4.6 MB |
+| `collection/StardewValleyPack-v2.collection.zip`（仓库内） | Vortex 一键安装合集（不含模组） | 2,940 B |
 
 ## 电脑版安装
 
@@ -53,7 +53,7 @@
 | 10 | Clint's Backstock | Rokugin | 1.0.1 | 必需 | https://www.nexusmods.com/stardewvalley/mods/20886 |
 | 11 | Allable Junimos (BetterJunimos 3.1.2 Improved) | Aufhcegak | 3.1.2-improved | 必需 | https://www.nexusmods.com/stardewvalley/mods/53632 |
 | 12 | JunimoQiFix 祝尼魔齐瓜修复 | Claude | 1.1.0 | 必需 | https://www.nexusmods.com/stardewvalley/mods/53632 |
-| 13 | Vertical Farming 立体农业 | xiepe | 0.6.5 | 必需 | https://www.nexusmods.com/stardewvalley/mods/53266 |
+| 13 | Vertical Farming 立体农业 | xiepe | 0.6.6 | 必需 | https://www.nexusmods.com/stardewvalley/mods/53266 |
 | 14 | Coastal Fishery 沿岸渔业 | xiepe | 0.2.3 | 必需 | https://www.nexusmods.com/stardewvalley/mods/53861 |
 | 15 | Garbage Recycler 垃圾回收机 | Claude | 1.6.0 | 必需 | https://www.nexusmods.com/stardewvalley/mods/50833 |
 | 16 | TreeFarm 林场 | xiepe | 0.6.2 | 必需 | https://www.nexusmods.com/stardewvalley/mods/50834 |
@@ -79,7 +79,7 @@
 
 ## 注意事项
 
-1. **版本差异**：立体农业 / 沿岸渔业 / 瑞幸咖啡 / 中式食肆 / 怪物竞技场 / 电话送礼 的 Nexus 版本比整合包内略旧，整合包里是本机最新修复版。要完全一致请用整合包本体，不要用合集。
+1. **版本差异**：立体农业 / 沿岸渔业 / 瑞幸咖啡 / 中式食肆 / 怪物竞技场 / 电话送礼 / 罗宾加班 的 Nexus 版本比整合包内略旧，整合包里是本机最新修复版。要完全一致请用整合包本体，不要用合集。
 2. **手机版不含 Lookup Anything**，食肆与垃圾回收机在手机端每次载入会刷一些无害日志。
 3. 手机包只做了静态校验与模拟器验收，真机触控仍需自测。
 4. 联机：模组需要每位玩家各自安装；主机与客机的版本必须一致。
@@ -93,5 +93,9 @@
 
 ## 更新记录
 
+- **2026-10-20** · 安卓包再次换新：罗宾加班 `1.4.3-mobile.2`、立体农业 `0.6.6-mobile2`
+  - 罗宾加班：上一版在原生安卓上「方向键和加班一起消失」——方向键层注册排在加班补丁前、遇到菜单里没有的方法直接抛异常，把整个启动流程打断。这版三条注册各自隔离，建造菜单改成运行时反射识别（桌面 `Action` 与原生安卓 `moving`/`_drawAtX`/`OnClickOK` 两套接口都认），搬迁面板在手机上只画四个方向键、确认取消交给原版右下角按钮。
+  - 立体农业：手机端点农业小屋**外墙电脑**打不开面板，原因是只认鼠标左键事件、没走触屏的 `OnButtonPressed` 链路；已改为按事件光标换算世界坐标判定。
+  - 安卓包 265 条目 / 4,577,791 B，同名 release 资产已替换；电脑包不动。
 - **2026-10-20** · 安卓包更新：罗宾加班 `1.4.3-mobile.1`（建筑搬迁方向键逐格微调、长按连续移动、独立确认/取消）
 - **2026-10-18** · 首次发布：电脑版 35 模组 / 安卓版 26 项 / Vortex 合集包
